@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="spa" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradigma Enfermero</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+<!---// http://paletton.com/#uid=13L0u0kpeCo1fFnevGrJxxXYyoj COLOR BACKGROUND--->
+
+  <body>
+
+    <div class="top-div">
+
+      <img class= "mainlogo" src="../images/logonuevoweb.png" alt="logo" >
+
+      <div class="nav-div">
+        <input type="checkbox" id="check-menu">
+        <label for="check-menu"><img class="icon" src="../images/icon-menu.png" alt=""></label>
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="../index.html">INICIO </a></li>
+            <li><a href="ser_enfermero.html">SER ENFERMERO?</a></li>
+            <li><a href="mapa_enf.html">MAPA ENFERMERIA</a></li>
+            <li><a href="../estudiante_enf/apuntes.html">APUNTES </a></li>
+            <li><a href="../eventos/eventos.html" class="sublist-btn">EVENTOS</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+
+    </div>
+
+     <!--- Cierre div Principal --->
+
+
+<h1 class="sub-title">Quiero estudiar Enfermería</h1>
+<p class="estudiar-enf">Toda la información para empezar a estudiar enfermería la vas a
+  encontrar acá, escribinos a admin@paradigmaenfermero.com.ar
+  si surge alguna inquietud y trataremos de resolver la cuestión.</p>
+
+
+<div class="imagen-pregunta">
+
+  <img class="img-preg-izq" src="../images/est-enf.jpg" alt="">
+  <div class="pregunta-der">
+
+    <h2>Estoy pensando en estudiar enfermería, ¿qué puedo esperar? <button type="button" class="btn">Ver respuesta</button></h2>
+
+    <p class="estudiar-enf"><span class="mostrar">Enfermería en estos últimos años ha dado grandes pasos, se está
+        asentando un nuevo paradigma, un nuevo enfoque, una forma distinta
+        de hacer la profesión y esto es un hecho a nivel global, intentamos
+        consolidar enfermería como disciplina científica.<br>
+        Ser enfermero implica una responsabilidad a ser tomada seriamente, la formación actual
+        es más exigente que años atrás por lo que hay que dedicarle más tiempo del que uno realmente puede imaginar.<br>
+        El abanico de especialidades es amplio por lo que una vez en el ambiente podés de a poco ir progesando
+        a la especialidad a la que te gustaría dedicarte(sala de emergencia, pediatría, terapia intensiva, etc).</span></p>
+
+  </div>
+</div>
+
+
+<div class="imagen-pregunta">
+
+  <img class="img-preg-der" src="../images/est-enf.jpg" alt="">
+
+  <div class="pregunta-izq">
+
+  <h2>¿Existe oferta académica en Argentina? <button type="button" class="btn">Ver respuesta</button></h2>
+
+
+  <p class="estudiar-enf"><span class="mostrar">Y muy variada, lamentablemente la mayoría de las ofertas académicas se encuentran concentradas en
+      la Ciudad Autónoma de Buenos Aires, pero eso no
+      quiere decir que la que está en el resto del país no sea buena, ya que afortunadamente se cuentan con
+      instituciones de calidad y además de gratuitas. Una vez recibidos y a veces aún siendo estudiantes
+      en algunos casos podrán presenciar cursos, jornadas y congresos que se realizan durante el transcurso del
+      año en todo el país, nuestro objetivo es justamente mantener a todos los profesionales al tanto de
+      los mismos.</span></p>
+</div>
+</div>
+
+<div class="imagen-pregunta">
+
+  <img class="img-preg-izq" src="../images/est-enf.jpg" alt="">
+
+  <div class="pregunta-der">
+
+    <h2>¿Cómo saber si mi perfil encaja con el de Enfermería? <button type="button" class="btn">Ver respuesta</button></h2>
+
+    <p class="estudiar-enf"><span class="mostrar">No es para cualquiera enfemrería, por eso hay que estar decidido a la hora de tomar este camino.
+        Se habla de vocación para ser enfermero, no todos tienen esa idea de vocación que uno cree que todos los enfermeros
+        poseen, por eso creo estar en lo correcto cuando digo que lo más importante es tener compromiso y responsabilidad,
+        por lo que sentir que es necesario tener vocación para ser enfermero es algo parcialmente cierto.
+        Es requisito ser empático, tener capacidad para generar buenas relaciones interpersonales ya que no sólo nos dedicaremos
+        al paciente sino que perteneceremos a un equipo de trabajo interdisciplinario en donde es muy importante la
+        comunicación.</span></p>
+
+  </div>
+</div>
+
+<div class="imagen-pregunta">
+  <img class="img-preg-der" src="../images/est-enf.jpg" alt="">
+
+  <div class="pregunta-izq">
+
+  <h2>¿Es fácil la carrera? <button type="button" class="btn">Ver respuesta</button></h2>
+
+  <p class="estudiar-enf"><span class="mostrar">Es como todo, si uno le dedica tiempo será más llevadero. Si uno piensa que es
+      fácil y no es necesario el esfuerzo para
+      sentarse a estudiar, le diría a esa persona que ni se acerque a la carrera, además no se trata solamente
+      de estudiar sino también de saber encarar el campo práctico, que es donde varios se dan cuenta que esta
+      carrera no es lo suyo.</span></p>
+
+</div>
+</div>
+
+
+<div class="imagen-pregunta">
+
+  <img class="img-preg-izq" src="../images/est-enf.jpg" alt="">
+
+  <div class="pregunta-der">
+    <h2>¿Se vive bien como enfermero en Argentina? <button type="button" class="btn">Ver respuesta</button></h2>
+    <p class="estudiar-enf"><span class="mostrar">Se vive, depende mucho de que tipo de vida quieras llevar, la realidad es que no se puede
+        llevar una vida de muchos lujos, pero la profesión te da la posibilidad de tener
+        un sueldo que si bien no es alto,
+        es generalmente acorde para tener una calidad de vida estándar y en algunos casos un poco más.</span></p>
+  </div>
+
+</div>
+
+
+    <footer class="bottom">
+
+    </footer>
+
+
+      <script src="../js/javascript.js"></script>
+      </script>
+  </body>
+</html>
