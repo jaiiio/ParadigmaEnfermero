@@ -1,0 +1,711 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  background: #0734e6;
+  background-image: -webkit-linear-gradient(#012882, #0b8fdb);
+  background-image: -o-linear-gradient(#012882, #0b8fdb);
+  background-image: linear-gradient(#012882, #0b8fdb);
+  background-image: -moz-linear-gradient(#012882, #0b8fdb);
+  background-image: -webkit-gradient(#012882, #0b8fdb);
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* ================================= Pagina Index ========================== */
+
+ p {
+   font-size: 18px;
+ }
+
+.top-div {
+  overflow: auto;
+  position: relative;
+  height: auto;
+  width: 100%;
+  background: #0734e6;
+  background-image: -webkit-linear-gradient(#012882, #0b8fdb);
+  background-image: -o-linear-gradient(#012882, #0b8fdb);
+  background-image: linear-gradient(#012882, #0b8fdb);
+  background-image: -moz-linear-gradient(#012882, #0b8fdb);
+  background-image: -webkit-gradient(#012882, #0b8fdb);
+  color: #FFFFFF;
+  padding: 0;
+}
+
+.mainlogo {
+  position: relative;
+  width: 15rem;
+  filter: invert(1.0);
+  margin: 0.5% 0.5%;
+  float: left;
+}
+
+/*======================== NAV BAR ========================*/
+/* https://www.youtube.com/watch?v=FL_odxf4zq4 */
+
+
+.nav-div {
+  width: 100%;
+  font-family: sans-serif;
+}
+
+#check-menu {
+  display: none;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  filter: invert(1.0);
+}
+
+.nav-div label {
+  position: absolute;
+  display: none;
+  padding: .5rem;
+}
+
+.nav-div label:hover {
+  cursor: pointer;
+  background: black;
+  background: rgba(0,0,0,0.3);
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 3.2rem 0 0 0;
+  display: flex;
+}
+
+.nav-bar li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-bar li a {
+  display: block;
+  padding: 1.2rem;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-bar li:hover {
+  background: black;
+  background: rgba(0,0,0,0.3);
+}
+
+@media (max-width: 860px) {
+  .nav-div label {
+    display: block;
+    margin: 2.4rem 0 0 0;
+    z-index: 1;
+  }
+
+  .mainlogo {
+    float: right;
+  }
+
+  .nav-bar {
+    position: fixed;
+    width: 50%;
+    margin-left: -50%;
+    transition: all 0.5s;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    background: #0734e6;
+    background-image: -webkit-linear-gradient(#012882, #0b8fdb);
+    background-image: -o-linear-gradient(#012882, #0b8fdb);
+    background-image: linear-gradient(#012882, #0b8fdb);
+    background-image: -moz-linear-gradient(#012882, #0b8fdb);
+    background-image: -webkit-gradient(#012882, #0b8fdb);
+    padding: 0;
+    margin: 6.75rem 0 0 0;
+  }
+
+  .nav-bar li {
+    border-top: 1px solid #FFFFFF;
+  }
+
+  #check-menu:checked ~ .nav-bar {
+    margin: 0;
+  }
+
+}
+
+/*======================== FIN NAV-BAR ========================*/
+
+
+/*======================== SLIDER INDEX ========================*/
+.slider-index {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-index ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider-index li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider-index img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  95% {margin-left: -300%;}
+
+}
+
+/*======================== FIN SLIDER INDEX ========================*/
+
+.sub-title {
+  margin-top: 5rem;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  color: #012882;
+  text-align: center;
+}
+
+.no-prof {
+  margin: 2rem auto 2rem auto;
+  width: 100%;
+  height: auto;
+}
+
+.estudiante-enfermeria {
+  background-image: url("../images/est-enf.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+  margin: 0;
+  float: left;
+}
+
+.texto-1 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  background-color: black;
+  background-color: rgba(31, 31, 31, 0.8);
+  float: left;
+  color: #FFFFFF;
+}
+
+.estudiante-enfermeria:hover .texto-1 {
+  background-color: black;
+  background-color: rgba(255, 255, 255, 0);
+  color: #012882;
+  font-weight: bold;
+}
+
+.quiero-estudiar-enfermeria {
+  background-image: url("../images/pareja-pensando.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+  margin: 0;
+  float: right;
+}
+
+.texto-2 {
+  font-size: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  background-color: black;
+  background-color: rgba(31, 31, 31, 0.8);
+  float: right;
+  color: #FFFFFF;
+}
+
+.quiero-estudiar-enfermeria:hover .texto-2 {
+  background-color: black;
+  background-color: rgba(255, 255, 255, 0);
+  color: #012882;
+}
+
+.centrado-letras {
+  text-align: center;
+  line-height: 30rem;
+}
+
+.contenedor-index {
+  text-align: center;
+  background-color: #D9DED4;
+  margin: 2rem auto;
+}
+
+.principal {
+  display: inline-block;
+  margin: 3rem auto;
+  padding: 0;
+  font-size: 1.5rem;
+  border-color: #012882;
+  text-decoration: none;
+  color: #012882;
+}
+
+.principal:hover {
+  background-color: #012882;
+  color: #FFFFFF;
+  }
+
+.main-div {
+  display: inline-block;
+  overflow: auto;
+  width: auto;
+  text-align: center;
+  margin: 3%;
+  font-family: sans-serif;
+
+}
+
+.imgs-div {
+  width: 220px;
+  height: 170px;
+  color: #012882;
+  margin: 0 auto 0 auto;
+}
+
+@media (max-width: 860px) {
+  .estudiante-enfermeria {
+    width: 100%;
+    float: none;
+  }
+
+  .quiero-estudiar-enfermeria {
+    width: 100%;
+    float: none;
+  }
+
+}
+
+/*================================FIN INDEX===================================*/
+
+/*================================INICIO SER ENFERMERO.HTML===================================*/
+
+
+  h3, h2 {
+    margin-top: 1.5rem;
+    text-indent: 3rem;
+    font-size: 2.0rem;
+  }
+
+  .estudiar-enf {
+    text-align: justify;
+    margin: 0 10% 0 10%;
+  }
+
+  .imagen-pregunta {
+    width: 100%;
+    overflow: auto;
+    margin: 2rem 0;
+    background: #0734e6;
+    background-image: -webkit-linear-gradient(#012882, #0b8fdb);
+    background-image: -o-linear-gradient(#012882, #0b8fdb);
+    background-image: linear-gradient(#012882, #0b8fdb);
+    background-image: -moz-linear-gradient(#012882, #0b8fdb);
+    background-image: -webkit-gradient(#012882, #0b8fdb);
+
+    color: #FFFFFF;
+  }
+
+  .img-preg-izq {
+    width: 50%;
+    float: left;
+  }
+
+  .pregunta-der {
+    width: 50%;
+    float: right;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .img-preg-der {
+    width: 50%;
+    float: right;
+  }
+
+  .pregunta-izq {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+ .mostrar {
+   display: none;
+
+ }
+
+ .btn {
+     background: none;
+     color: #012882;
+     border: none;
+     font-size: 1.5rem;
+     border-radius: 1px;
+     cursor: pointer;
+     margin: 1rem;
+   }
+
+   /*================================FIN SER ENFERMERO.HTML===================================*/
+
+   /*================================INICIO UNIVERSIDADES.HTML===================================*/
+
+
+  .universidades {
+    background: #0734e6;
+    background-image: -webkit-linear-gradient(#012882, #0b8fdb);
+    background-image: -o-linear-gradient(#012882, #0b8fdb);
+    background-image: linear-gradient(#012882, #0b8fdb);
+    background-image: -moz-linear-gradient(#012882, #0b8fdb);
+    background-image: -webkit-gradient(#012882, #0b8fdb);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    width: 100%;
+    padding: .8rem;
+    box-sizing: border-box;
+  }
+
+  .universidades:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(#3cb0fd, #3498db);
+    background-image: -o-linear-gradient(#3cb0fd, #3498db);
+    background-image: linear-gradient(#3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(#3cb0fd, #3498db);
+    background-image: -webkit-gradient(#3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
+  .provincia {
+    display: none;
+  }
+
+  .div-univ {
+    overflow: auto;
+    position: relative;
+    margin: 0;
+    border-style: solid;
+    border-color: #C5C6D0;
+    border-width: 3rem 1.2rem 3.5rem 1.2rem;
+  }
+
+  .img-univ {
+    position: relative;
+    max-width: 250px;
+    height: auto;
+    padding: 20px;
+    float: left;
+  }
+
+  .descripcion-univ ul {
+  display: block;
+  text-align: justify;
+  margin: 1rem auto 1rem 18rem;
+  }
+
+  .descripcion-univ li {
+  font-size: 18px;
+  }
+/* .descripcion-univ {
+  font-size: 18px:
+} */
+
+  .li-mapa{
+  list-style: none;
+}
+
+.mapas {
+  width: 400px;
+  height: 300px;
+  border: 0;
+  margin: 1rem;
+}
+
+@media (max-width: 860px) {
+  .div-univ {
+    width: 90%;
+    margin: 1rem 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+   }
+
+  .img-univ {
+    position: relative;
+    width: 80%;
+   }
+
+   .descripcion-univ {
+     width: 80%;
+   }
+
+   .descripcion-univ ul {
+    margin: auto;
+   }
+
+   .div-univ .mapas {
+     width: 300px;
+     height: 200px;
+   }
+
+  }
+
+/*================================FIN UNIVERSIDADES.HTML===================================*/
+
+
+/*======================== Mapa Argentina ==================*/
+
+
+.arg-map {
+  margin: 5rem auto;
+  width: 75%;
+  max-width: 400px;
+  max-height: 850px;
+}
+
+.arg-map path {
+  fill: #A9A9A9;
+  stroke: #C9C27F;
+  stroke-width: 5px;
+  transition: fill 0.3s;
+}
+
+.arg-map :hover {
+  fill: #012882;
+}
+
+.titulo_region {
+  width: 100%;
+  padding: 0;
+}
+
+.titulo_region img {
+  margin: 1rem auto 1rem auto;
+  display: block;
+}
+
+/*======================== CSS EVENTOS ENFERMERIA ==================*/
+
+.contenido-agenda {
+  font-family: sans-serif;
+}
+
+.lista-links {
+  list-style: none;
+  padding: 0;
+  margin: 1rem auto 2rem 0;
+  font-family: sans-serif;
+}
+
+.opcion-agenda {
+  display: inline-flex;
+  width: 20%;
+}
+
+.link-agenda {
+    text-decoration: none;
+    color: #A9A9A9;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+    border-bottom: 1px solid transparent;
+    font-size: 20px;
+}
+
+.link-agenda:hover {
+        color: #A9A9A9;
+      }
+
+.lista-links .active .link-agenda {
+  color: #012882;
+  border-bottom: 1px solid #012882;
+}
+
+.lista-links .active .link-agenda:hover {
+      border-color: transparent;
+      background: #012882;
+      color: white;
+}
+
+.tabla-agenda {
+  display: none;
+}
+
+.tabla-agenda.active {
+  display: block;
+}
+
+.container-general {
+  margin: 2rem;
+}
+
+.container-meses ul{
+  list-style: none;
+  font-size: 18px;
+  margin: 0;
+}
+
+@media (max-width: 860px) {
+  .opcion-agenda {
+    width: 100%;
+    display: block;
+    margin: 1rem 0;
+  }
+}
+
+/*======================== INICIO CUADRO EVENTOS.HTML ==================*/
+
+
+.mes {
+  margin-top: 2rem;
+  padding: 0;
+  display: inline-block;
+  color: #012882;
+}
+
+.titulo-mes:hover {
+  color: #FFFFFF;
+  background-color: #012882;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+.titulo-mes p {
+  margin: 5px 18px;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.seleccion p {
+  font-size: 24px;
+  margin: 3px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #0734e6;
+  padding: 12px;
+  background: blue;
+  background: rgba(1,40,130,1);
+  background: -moz-linear-gradient(left, rgba(1,40,130,1) 0%, rgba(1,40,130,1) 23%, rgba(73,155,234,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(1,40,130,1)), color-stop(23%, rgba(1,40,130,1)), color-stop(100%, rgba(73,155,234,1)));
+  background: -webkit-linear-gradient(left, rgba(1,40,130,1) 0%, rgba(1,40,130,1) 23%, rgba(73,155,234,1) 100%);
+  background: -o-linear-gradient(left, rgba(1,40,130,1) 0%, rgba(1,40,130,1) 23%, rgba(73,155,234,1) 100%);
+  background: -ms-linear-gradient(left, rgba(1,40,130,1) 0%, rgba(1,40,130,1) 23%, rgba(73,155,234,1) 100%);
+  background: linear-gradient(to right, rgba(1,40,130,1) 0%, rgba(1,40,130,1) 23%, rgba(73,155,234,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#012882', endColorstr='#499bea', GradientType=1 );
+}
+
+.sublista-mes {
+  margin: 4px auto;
+  display: none;
+}
+
+.marco-css-evento {
+  width: 30%;
+  margin: .5%;
+  padding: .5%;
+  text-indent: 0;
+  display: inline-block;
+}
+
+.detalles-evento {
+  border: solid .5px #A9A9A9;
+}
+
+.tarjeta-evento p {
+  color: #A9A9A9;
+}
+
+.tarjeta-evento h4, .tarjeta-evento h4 a {
+  background-color: #3cb0fd;
+  margin: 0;
+  padding: 12px;
+  color: #FFFFFF;
+}
+
+.cuerpo-tarjeta-evento {
+  border-bottom: solid .5px #A9A9A9;
+}
+
+.contacto-evento, .contacto-evento a {
+  margin: 0;
+  color: #0734e6;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.info {
+  word-wrap: break-word;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.info h3, p, a {
+  text-indent: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@media (max-width: 860px) {
+  .titulo-mes {
+    width: 100%;
+  }
+  .marco-css-evento {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0;
+  }
+}
+
+/*======================== FIN CUADRO EVENTOS.HTML ==================*/
+
+/*======================== FIN CSS EVENTOS ENFERMERIA ==================*/
